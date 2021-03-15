@@ -18,15 +18,15 @@ fetch("./TEASHIRT.JSON")
 
     //  class="badge bg-primary rounded-pill "
   });
-let listss = localStorage.getItem("wishlists");
-console.log(listss);
-let pill = document.getElementById("pills");
-console.log(pill);
-let pillspan = document.createElement("span");
-let pillAtribute = document.createAttribute("class");
-pillAtribute.value = "badge bg-primary rounded-pill  ";
-pillspan.innerHTML = `${listss.length}`;
-pill.appendChild(pillspan);
+// let listss = localStorage.getItem("wishlists");
+// console.log(listss);
+// let pill = document.getElementById("pills");
+// console.log(pill);
+// let pillspan = document.createElement("span");
+// let pillAtribute = document.createAttribute("class");
+// pillAtribute.value = "badge bg-primary rounded-pill  ";
+// pillspan.innerHTML = `${listss.length}`;
+// pill.appendChild(pillspan);
 // ===========================================================
 let landPage = document.querySelector(".landd");
 let branddetail = document.querySelector(".branddetails");
